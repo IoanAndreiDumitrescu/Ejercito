@@ -34,7 +34,7 @@ public class FactoryUnidades
 
     public IUnidad CrearCanonAnAereo()
     {
-        return new Artilleria { Nombre = "Cañon An aereo", Velocidad = 1f, Blindaje = 0f, PotenciaFuego = 22f, Precio = 1100 };
+        return new Artilleria { Nombre = "Cañon Antiaereo", Velocidad = 1f, Blindaje = 0f, PotenciaFuego = 22f, Precio = 1100 };
     }
 
     public IUnidad CrearTorpederoMovil()
